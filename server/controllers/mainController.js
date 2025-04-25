@@ -1,6 +1,6 @@
 exports.homepage = async (req, res) => {
   const locals = {
-    title: "NotesGoose",
+    title: "Notes",
     description: "A note-taking app",
   };
 
@@ -12,7 +12,7 @@ exports.homepage = async (req, res) => {
 
 exports.about = async (req, res) => {
   const locals = {
-    title: "About - NotesGoose",
+    title: "About - Notes",
     description: "A note-taking app.",
   };
   res.render("about", locals);
